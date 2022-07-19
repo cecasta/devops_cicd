@@ -1,19 +1,11 @@
 pipeline{
 
-	agent {label 'linux'}
-
 	environment {
 		DOCKERHUB_CREDENTIALS=credentials('dockerhub')
 	}
 
 	stages {
-	    
-	    stage('gitclone') {
 
-			steps {
-				git 'https://github.com/cecasta/devops_cicd.git'
-			}
-		}
 
 		stage('Build') {
 
