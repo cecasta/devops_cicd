@@ -1,0 +1,24 @@
+{
+  "name": "devops_cicd",
+  "version": "1.0.0",
+  "description": "Pipeline upload image docker hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cecasta/devops_cicd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cecasta/devops_cicd/issues"
+  },
+  "homepage": "https://github.com/cecasta/devops_cicd#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
