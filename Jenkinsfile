@@ -10,7 +10,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t nodejscicd/devops:latest .'
+				sh 'docker build -t ccastano12/nodejscicd:latest .'
 			}
 		}
 
@@ -24,7 +24,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push nodejscicd/devops:latest'
+				sh 'docker push ccastano12/nodejscicd:latest'
 			}
 		}
 	}
